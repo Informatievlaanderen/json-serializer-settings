@@ -6,6 +6,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json
     using Newtonsoft.Json.Serialization;
     using NodaTime;
     using NodaTime.Serialization.JsonNet;
+    using Utilities;
 
     public static class FormatterExtensions
     {
@@ -25,8 +26,12 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json
             source.DateFormatHandling = DateFormatHandling.IsoDateFormat;
             source.DateTimeZoneHandling = DateTimeZoneHandling.RoundtripKind;
 
-            source.Converters.Add(new StringEnumConverter { CamelCaseText = true });
+            var stringEnumConvertor = new StringEnumConverter { CamelCaseText = true };
+            stringEnumConvertor.NamingStrategy = new CamelCaseNamingStrategy(true, true);
+            source.Converters.Add(stringEnumConvertor);
+
             source.Converters.Add(new TrimStringConverter());
+            source.Converters.Add(new Rfc3339SerializableDateTimeOffsetConverter());
 
             return source
                 .ConfigureForNodaTime(DateTimeZoneProviders.Tzdb)

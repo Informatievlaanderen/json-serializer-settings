@@ -3,6 +3,7 @@ NodaTime.Serialization.JsonNet
 Microsoft.AspNetCore.Mvc.Formatters.Json
 
 Be.Vlaanderen.Basisregisters.Converters.TrimString
+Be.Vlaanderen.Basisregisters.Utilities.Rfc3339DateTimeOffset
 
 SourceLink.Embed.AllSourceFiles
 SourceLink.Copy.PdbFiles
