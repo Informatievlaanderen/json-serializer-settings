@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v1.1.0...v1.2.0) (2019-02-07)
+
+
+### Features
+
+* support nullable Rfc3339SerializableDateTimeOffset in converter ([504ee21](https://github.com/informatievlaanderen/json-serializer-settings/commit/504ee21))
+
 # [1.1.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v1.0.1...v1.1.0) (2019-02-06)
 
 
