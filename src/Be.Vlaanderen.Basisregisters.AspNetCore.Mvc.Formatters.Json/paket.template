@@ -17,7 +17,7 @@ description ASP.NET Core MVC Json formatter serializer settings.
 dependencies
   framework: netstandard20
     Be.Vlaanderen.Basisregisters.Converters.TrimString ~> 1.0
-    Be.Vlaanderen.Basisregisters.Utilities.Rfc3339DateTimeOffset ~> 1.0
+    Be.Vlaanderen.Basisregisters.Utilities.Rfc3339DateTimeOffset ~> 1.1
 
     Newtonsoft.Json >= LOCKEDVERSION
     NodaTime.Serialization.JsonNet >= LOCKEDVERSION
