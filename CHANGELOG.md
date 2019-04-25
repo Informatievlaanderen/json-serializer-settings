@@ -1,3 +1,5 @@
+## [1.2.2](https://github.com/informatievlaanderen/json-serializer-settings/compare/v1.2.1...v1.2.2) (2019-04-25)
+
 ## [1.2.1](https://github.com/informatievlaanderen/json-serializer-settings/compare/v1.2.0...v1.2.1) (2019-02-07)
 
 
