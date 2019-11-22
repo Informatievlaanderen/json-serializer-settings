@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v1.3.0...v2.0.0) (2019-11-22)
+
+
+### Code Refactoring
+
+* upgrade to netcoreapp30 ([bd19512](https://github.com/informatievlaanderen/json-serializer-settings/commit/bd19512))
+
+
+### BREAKING CHANGES
+
+* Upgrade to .NET Core 3
+
 # [1.3.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v1.2.2...v1.3.0) (2019-08-22)
 
 
