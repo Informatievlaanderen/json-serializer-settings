@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v2.1.0...v2.2.0) (2020-01-31)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([c5d2031](https://github.com/informatievlaanderen/json-serializer-settings/commit/c5d203158f03edd0d82900f7e399c7a242d33849))
+
 # [2.1.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v2.0.0...v2.1.0) (2019-12-15)
 
 
