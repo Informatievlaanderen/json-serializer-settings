@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v2.2.0...v2.3.0) (2020-02-17)
+
+
+### Features
+
+* derive jsonproperty order from datamember if exists ([46ab13e](https://github.com/informatievlaanderen/json-serializer-settings/commit/46ab13e2fe30ffc9df849911bd3ddfc9b54a9d9d))
+
 # [2.2.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v2.1.0...v2.2.0) (2020-01-31)
 
 
