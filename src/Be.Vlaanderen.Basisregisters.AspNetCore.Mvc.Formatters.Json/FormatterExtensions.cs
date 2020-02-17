@@ -10,6 +10,17 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json
 
     public static class FormatterExtensions
     {
+        private static readonly DefaultContractResolver SharedContractResolver =
+            new OrderContractResolver
+            {
+                NamingStrategy = new CamelCaseNamingStrategy
+                {
+                    OverrideSpecifiedNames = true,
+                    ProcessDictionaryKeys = true,
+                    ProcessExtensionDataNames = true
+                }
+            };
+
         /// <summary>
         /// Sets up and adds additional converters for an API to the JsonSerializerSettings
         /// </summary>
@@ -17,11 +28,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json
         /// <returns>the updated JsonSerializerSettings</returns>
         public static JsonSerializerSettings ConfigureDefaultForApi(this JsonSerializerSettings source)
         {
-            if (source.ContractResolver is DefaultContractResolver resolver)
-            {
-                resolver.NamingStrategy.OverrideSpecifiedNames = true;
-                resolver.NamingStrategy.ProcessDictionaryKeys = true;
-            }
+            source.ContractResolver = SharedContractResolver;
 
             source.DateFormatHandling = DateFormatHandling.IsoDateFormat;
             source.DateTimeZoneHandling = DateTimeZoneHandling.RoundtripKind;
