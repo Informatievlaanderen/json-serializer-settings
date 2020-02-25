@@ -11,15 +11,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json
     public static class FormatterExtensions
     {
         private static readonly DefaultContractResolver SharedContractResolver =
-            new OrderContractResolver
-            {
-                NamingStrategy = new CamelCaseNamingStrategy
-                {
-                    OverrideSpecifiedNames = true,
-                    ProcessDictionaryKeys = true,
-                    ProcessExtensionDataNames = true
-                }
-            };
+            DefaultApiJsonContractResolver.UsingDefaultNamingStrategy();
 
         /// <summary>
         /// Sets up and adds additional converters for an API to the JsonSerializerSettings
