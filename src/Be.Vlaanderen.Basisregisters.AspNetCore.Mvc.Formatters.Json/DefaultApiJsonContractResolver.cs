@@ -37,6 +37,13 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json
             if (!property.Order.HasValue)
                 property.Order = dataMemberAttribute.Order;
 
+            if (!property.DefaultValueHandling.HasValue)
+            {
+                property.DefaultValueHandling = dataMemberAttribute.EmitDefaultValue
+                    ? DefaultValueHandling.Include
+                    : DefaultValueHandling.Ignore;
+            }
+
             return property;
         }
     }
