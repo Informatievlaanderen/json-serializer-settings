@@ -9,5 +9,10 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json.Tests.Infr
         {
             return new JsonPropertyAssertion(assertions.MatchRegex($"\"{property}\":").And, property);
         }
+
+        public static JsonPropertyAssertion NotHaveProperty(this StringAssertions assertions, CamelCasedString property)
+        {
+            return new JsonPropertyAssertion(assertions.NotMatchRegex($"\"{property}\":").And, property);
+        }
     }
 }
