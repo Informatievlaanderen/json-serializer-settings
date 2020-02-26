@@ -1,3 +1,23 @@
+# [3.0.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v2.3.0...v3.0.0) (2020-02-26)
+
+
+### Code Refactoring
+
+* rename OrderContractResolver ([71bd5ec](https://github.com/informatievlaanderen/json-serializer-settings/commit/71bd5ec21586208e4c11a46f2ab079443967fd15))
+
+
+### Features
+
+* behaviour for EmitDefaultValue is added to json property ([c9b227d](https://github.com/informatievlaanderen/json-serializer-settings/commit/c9b227d1955412096061745cca0af1d0d1030988))
+
+
+### BREAKING CHANGES
+
+* rename OrderContractResolver to
+DefaultApiJsonContractReslover
+
+Add tests for applying order from DataMemberAttribute to JsonProperty
+
 # [2.3.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v2.2.0...v2.3.0) (2020-02-17)
 
 
