@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.0...v3.0.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* bump netcore to 3.1.2 ([f4544ba](https://github.com/informatievlaanderen/json-serializer-settings/commit/f4544ba0ecb492c634500a9dc47e28835bb82e1a))
+
 # [3.0.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v2.3.0...v3.0.0) (2020-02-26)
 
 
