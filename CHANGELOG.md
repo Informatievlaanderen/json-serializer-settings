@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.1...v3.0.2) (2020-05-04)
+
+
+### Bug Fixes
+
+* move to GH-actions ([a47317d](https://github.com/informatievlaanderen/json-serializer-settings/commit/a47317d84b69aaba246ba51b0a84295f176d74f2))
+
 ## [3.0.1](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.0...v3.0.1) (2020-03-03)
 
 
