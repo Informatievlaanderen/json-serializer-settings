@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.2...v3.0.3) (2020-05-18)
+
+
+### Bug Fixes
+
+* move to 3.1.4 ([49d8c08](https://github.com/informatievlaanderen/json-serializer-settings/commit/49d8c0822c5ca80e60384a417b4de93f0e8de941))
+
 ## [3.0.2](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.1...v3.0.2) (2020-05-04)
 
 
