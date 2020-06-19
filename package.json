@@ -1,6 +1,6 @@
 {
   "name": "json-serializer-settings",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Default Json.NET serializer settings.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
@@ -48,7 +48,10 @@
     ]
   },
   "release": {
-    "branches": [ "master", "main" ],
+    "branches": [
+      "master",
+      "main"
+    ],
     "verifyConditions": [
       "@semantic-release/changelog",
       "@semantic-release/git",
