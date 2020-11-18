@@ -1,3 +1,10 @@
+## [3.0.7](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.6...v3.0.7) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([df66b4b](https://github.com/informatievlaanderen/json-serializer-settings/commit/df66b4b5012f29bac516cfea57ab82549516a1b9))
+
 ## [3.0.6](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.5...v3.0.6) (2020-09-21)
 
 
