@@ -1,6 +1,6 @@
 {
   "name": "json-serializer-settings",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "description": "Default Json.NET serializer settings.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
