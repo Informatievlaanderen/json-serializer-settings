@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.10...v4.0.0) (2022-03-25)
+
+
+### Features
+
+* move to dotnet 6.0.3 ([11301ae](https://github.com/informatievlaanderen/json-serializer-settings/commit/11301ae378ae61a76929fb4463f4babbbf1776cc))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 6.0.3
+
 ## [3.0.10](https://github.com/informatievlaanderen/json-serializer-settings/compare/v3.0.9...v3.0.10) (2021-05-28)
 
 
