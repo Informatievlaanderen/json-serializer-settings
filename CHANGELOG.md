@@ -1,3 +1,15 @@
+# [6.0.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v5.0.0...v6.0.0) (2025-04-07)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([4679488](https://github.com/informatievlaanderen/json-serializer-settings/commit/46794883e1aa72f9867a9305e081069c4e6fc407))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [5.0.0](https://github.com/informatievlaanderen/json-serializer-settings/compare/v4.0.0...v5.0.0) (2024-03-08)
 
 
