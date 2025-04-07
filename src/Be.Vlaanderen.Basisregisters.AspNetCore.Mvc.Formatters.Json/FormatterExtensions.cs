@@ -25,7 +25,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Formatters.Json
             source.DateFormatHandling = DateFormatHandling.IsoDateFormat;
             source.DateTimeZoneHandling = DateTimeZoneHandling.RoundtripKind;
 
-            var stringEnumConvertor = new StringEnumConverter { CamelCaseText = true };
+            var stringEnumConvertor = new StringEnumConverter { NamingStrategy = new CamelCaseNamingStrategy() };
             stringEnumConvertor.NamingStrategy = new CamelCaseNamingStrategy(true, true);
             source.Converters.Add(stringEnumConvertor);
 
