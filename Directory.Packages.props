@@ -6,7 +6,7 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
-        <PackageVersion Include="NodaTime.Serialization.JsonNet" Version="3.2.1" />
+        <PackageVersion Include="NodaTime.Serialization.JsonNet" Version="3.3.0" />
 
         <PackageVersion Include="Be.Vlaanderen.Basisregisters.Converters.TrimString" Version="5.1.0" />
         <PackageVersion Include="Be.Vlaanderen.Basisregisters.Utilities.Rfc3339DateTimeOffset" Version="5.1.0" />
